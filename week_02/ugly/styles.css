@@ -8,22 +8,20 @@ body {
 
 }
 
+h1 {
+    color: #ff7b00;
+    text-align: center;
+    margin-top: 20px;
+    font-size: xx-large;
+    font-family:'Times New Roman', Times, serif
+}
+
 h2 {
   color: #00ff2f;
   text-align: right;
   margin-top: 20px;
   font-size: xx-large;
   font-family:'Times New Roman', Times, serif
-}
-
-.center {
-  text-align: center;
-  font-size:xx-large;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
-p {
-  color: #d4ff00;
 }
 
 blockquote {
