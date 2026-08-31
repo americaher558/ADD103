@@ -2,6 +2,7 @@
 body {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   background-color: #cf04f7;
+  background-image:url("pattern.jpg");
   margin: 0;
   padding: 0;
 
@@ -9,6 +10,26 @@ body {
 
 h2 {
   color: #00ff2f;
-  text-align: center;
+  text-align: right;
   margin-top: 20px;
+  font-size: xx-large;
+  font-family:'Times New Roman', Times, serif
+}
+
+.center {
+  text-align: center;
+  font-size:xx-large;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+p {
+  color: #d4ff00;
+}
+
+blockquote {
+  border: 5px solid #ff0033;
+  margin: 20px 0;
+  padding: 10px;
+  font-style: italic;
+  border-block: 10px dashed blue;
 }
