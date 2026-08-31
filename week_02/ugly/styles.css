@@ -1,0 +1,14 @@
+/* General page Styles */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #cf04f7;
+  margin: 0;
+  padding: 0;
+
+}
+
+h2 {
+  color: #00ff2f;
+  text-align: center;
+  margin-top: 20px;
+}
