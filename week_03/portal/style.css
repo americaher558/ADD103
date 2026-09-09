@@ -1,0 +1,21 @@
+body{
+    background-color: lightblue;
+    color: rgb(36, 34, 57);
+    line-height: 2;
+}
+
+h1, h2, h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(75, 68, 43);
+    font-weight: bold;
+}
+
+.img-center {
+   width: 40%;
+   height: auto;
+   display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    width: 30%;
+    border-radius: 8px;
+}
