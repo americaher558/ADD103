@@ -29,6 +29,6 @@ p a{
 }
 
 p a:hover{
-    color: lightcoral
+    color: lightcoral;
     text-decoration:underline;
 }
