@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(252, 204, 255);
+    border: 5px dashed rgb(227, 46, 221);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: bold;
+    color:rgb(240, 128, 236);
+    text-shadow: 2px 2px 5px rgb(185, 27, 180);
+}
+
+ul{
+    font-family: 'Times New Roman', Times, serif;
+        font-size: 35px;
+        color: rgb(237, 50, 190);
+        list-style-type:none
+}
+
+ol{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    list-style-type:circle;
+    color: rgb(237, 50, 190);
+}
+
+li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 2;
+    color:rgb(60, 20, 76);
+}
+
+p a{
+    color: rgb(240, 128, 236);
+    font-weight:bold;
+    font-size: 20px;
+}
+
+p a:hover{
+    text-decoration: underline;
+    color: rgb(240, 128, 236);
+    text-shadow: 2px 2px 5px rgb(59, 27, 185);
+    font-size: 20px;
+    }
