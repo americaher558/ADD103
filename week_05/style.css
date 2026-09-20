@@ -1,0 +1,55 @@
+.gallery-row{
+    display: flex; 
+    min-height: 150px;
+    width: 60%;
+    background-color: rgb(118, 118, 163);
+    margin: 10px auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+body{
+    background-color: rgb(28, 28, 36);
+    color: rgb(184, 52, 160);
+}
+h2,p{
+    text-align:center;
+    color: rgb(184, 52, 160);
+}
+h1{
+    text-align: center;
+    color: rgb(184, 52, 160);
+    text-shadow: 2px 2px 5px rgb(185, 27, 180);
+}
+.card{
+    background-color: rgb(28, 28, 36);
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(184, 52, 160);
+    width: 200px;
+    border-radius: 8px;
+    display: flex;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-center {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    max-width: 200px;
+    width: 200px;
+    border-radius: 8px;
+}
+p a {
+    color: rgb(240, 128, 236);
+    font-weight: bold;
+    font-size: 20px;
+}
+p a:hover {
+    text-decoration: underline;
+    color: rgb(240, 128, 236);
+    text-shadow: 2px 2px 5px rgb(185, 27, 185);
+    font-size: 20px;   }
