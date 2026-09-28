@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+:root{
+    --pastel-pink: #f6d6e6;
+    --pastel-blue: #cfe8f3;
+    --pastel-mint: #d8f0df;
+    --pastel-lavender: #e3daf5;
+    --pastel-yellow: #fff1c9;
+}
+body{
+    background-image: url("background.jpg");
+    color:darkslategray;
+    font-family: 'Times New Roman', Times, serif;
+}
+.photo-wall{
+    width: 90%;
+    max-width: 1200px;
+    background: var(--pastel-mint);
+    margin:40px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    padding: 20px;
+}
+.photo-wall img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.photo-wall div{
+    background: var(--pastel-pink);
+    padding:10px;
+    overflow: hidden;
+    height: 350px;
+}
+h1{
+    text-align: center;
+    color: rgb(246, 227, 242);
+    text-shadow: 2px 2px 5px rgb(218, 104, 140);
+}
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    background-color:var(--pastel-mint);
+    color: #1a1f31;
+    min-height: 400px;
+}
+.hero-text{
+    flex-basis: 50%;
+    flex-grow: 1;
+    padding: 48px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.hero-text h1{
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+.hero-text p{
+    font-size: 25px;
+    color:rgb(218, 104, 140);
+    margin-bottom: 50px;
+}
+.button{
+    display: flex;
+}
+.button .btn{
+    background-color: aliceblue;
+    color: rgb(60, 98, 84);
+    text-decoration: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    display: inline-block;
+}
+.button .btn:hover{
+    background-color: aliceblue;
+}
+.hero-img {
+    flex-basis: 30%;
+    flex-grow: 1;
+}
+.hero-img img {
+    width: 90%;
+    display: block;
+}
+footer{
+    display: block;
+}
+p a {
+    color: rgb(240, 128, 236);
+    font-weight: bold;
+    font-size: 20px;
+}
+p a:hover {
+    text-decoration: underline;
+    color: rgb(240, 128, 236);
+    text-shadow: 2px 2px 5px rgb(185, 27, 185);
+    font-size: 20px;
+}
