@@ -240,23 +240,23 @@ p{
 /*mobile*/
 @media (max-width: 768px) {
 
-    .hero {
+    .header {
         flex-direction: column;
         align-items: center;
         gap: 20px;
         text-align: center;
     }
 
-    .hero-text {
+    .header-text {
         flex: none;
     }
 
-    .hero-text h1 {
+    .header-text h1 {
         text-align: center;
         font-size: 30px;
     }
 
-    .hero-right {
+    .header-right {
         flex-direction: column;
         margin-left: 0;
     }
