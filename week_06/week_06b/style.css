@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;  
+}
+:root {
+    /* Burgundies */
+    --burgundy-dark: #5b1f2b;
+    --burgundy: #8c3543;
+    --burgundy-light: #c98285;
+
+    /* Oranges */
+    --orange-dark: #a84f1c;
+    --orange: #d87932;
+    --orange-light: #f2b56b;
+
+    /* Browns */
+    --brown-dark: #493326;
+    --brown: #79543a;
+    --brown-light: #c1a17d;
+
+    /* Theme colors */
+    --color-text: var(--brown-dark);
+    --color-text-muted: var(--brown);
+    --color-background: #fbf4e9;
+    --color-surface: #f1e3cf;
+    --color-highlight: var(--orange-light);
+    --color-accent: var(--burgundy);
+    --color-accent-hover: var(--burgundy-dark);
+    --color-border: var(--brown-light);
+}
